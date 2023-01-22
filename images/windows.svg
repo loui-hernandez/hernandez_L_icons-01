@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Soc-Med" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="windows">
+    <g>
+      <polygon class="cls-1" points="0 171.04 80.7 182.72 80.7 105.52 0 105.52 0 171.04"/>
+      <polygon class="cls-1" points="91.73 184.32 200 200 200 105.52 91.73 105.52 91.73 184.32"/>
+      <polygon class="cls-1" points="91.73 94.49 200 94.49 200 0 91.73 15.68 91.73 94.49"/>
+      <polygon class="cls-1" points="80.7 17.28 0 28.97 0 94.49 80.7 94.49 80.7 17.28"/>
+    </g>
+  </g>
+</svg>

@@ -4,37 +4,110 @@
     border: none;
 
     box-sizing: border-box;
-
 }
 
-body {
-    font-size: 16px;
-    background-color: white;
-    color: black;
-}
 
 .hidden {
     display: none;
 }
 
-.icon-container {
-    text-align: center;
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: rgb(0, 10, 156);
+    color: rgb(241, 241, 241);
+
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif, cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+}
+
+
+
+/* Header */
+
+header {
+    background-color: rgb(50, 204, 255);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 50px;
+    list-style-type: none;
+
+}
+
+.nav {
+    display: flex;
+    margin-right: 200px;    
+}
+
+#nav-logo {
+    width: 100px;
+    display: flex;
+    margin: 20px 1px 20px 130px;
+}
+
+
+
+/* content */
+
+.icon-container{
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .wrapper {
-    width: 45%;
-    display: inline-block;
-    padding: 1em;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 .wrapper img {
-    width: 100%;   
+    width: 90px;
 }
 
-#bitmap {
-
+.wrapper img:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s ease-out, fill 0.5s;
 }
 
-#vector {
-    
+.wrapper p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.wrapper p:hover {
+    transform: scale(1.5);
+    transition: transform 0.5s ease-out, fill 0.5s;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(252, 83, 255);
+    bottom:0;
+    left:0;
+    width:100%;
 }
