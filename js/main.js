@@ -13,16 +13,13 @@ querySelector is the method (fuction) that makes the connection between jJS and 
 
 // step 1 - make the connection to the Element(s) you want to interact with
 
-const jpegGraphic= document.querySelector("#bitmap");
-const vectorGraphic= document.querySelector("#vector");
-
+const svgIcons= document.querySelector('.icon-container');
 
 
 function logID() {
-    console.log('clicked on this element:',this.id);
+    console.log('clicked on this ICON:', this.id);
 }
 
 // step 2 - decide how you want the user to interact with the object you created in step 1
-jpegGraphic.addEventListener('click', logID);
-vectorGraphic.addEventListener('click', logID);
+svgIcons.addEventListener('click', logID);
 
