@@ -27,7 +27,6 @@ const trip_advisor = document.querySelector ('#trip_advisor');
 const amazon = document.querySelector ('#amazon');
 const html5 = document.querySelector ('#html5');
 
-
 function logID2() {
     console.log('clicked on this SVG Icon Social Media:',this.id);
 }
